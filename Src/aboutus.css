@@ -1,0 +1,99 @@
+
+.tab__list--aboutus {
+    background-color: rgb(42, 42, 140);
+    width: 9vw;
+    height: 2.7vw;
+    border-radius: 0.3vw;
+}
+.tab__link--AboutUs {
+    color: aliceblue;
+}
+.contactcontainer{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2vh;
+    margin-top: 5vh;
+}
+.contactcontainer__aboutUs{
+    text-align: center;
+    width: auto;
+    max-width: 612px;
+    min-width: 230px;
+    background-color: aliceblue;
+    border-radius: 3vh;
+    padding: auto;
+}
+.audio{
+    width: 230px;
+}
+.contactcontainer__services{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 3vh;
+    padding: auto;
+    margin: 10px;
+}
+.services{
+    list-style-type: none;
+}
+.services__image{
+    width: 30px;
+    height: 30px;
+}
+.services__list{
+    display: flex;
+    column-gap: 3vh;
+    align-items: center;
+}
+.teamContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.person {
+    width: 40vw;
+    min-width: 240px;
+    display: flex;
+    align-items: center;
+    column-gap: 5vw;
+    background-color: antiquewhite;
+    box-shadow: 2px rgb(176, 173, 173);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.person_image {
+    width: 25vw;
+    min-width: 180px;
+    height: 30vw;
+    min-height: 220px;
+    border-radius: 7vh;
+    object-fit: cover;
+    object-position:top;
+}
+
+@media screen and (max-width: 600px) {
+    #aboutUs{
+        width: 95vw;
+    }
+    #services{
+        width: 95vw;
+    }
+    .person {
+        width: 80vw;
+        min-width: 240px;
+        display: flex;
+        align-items: center;
+        column-gap: 5vw;
+        background-color: antiquewhite;
+        box-shadow: 2px rgb(176, 173, 173);
+        padding: 10px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    
+}
+
+

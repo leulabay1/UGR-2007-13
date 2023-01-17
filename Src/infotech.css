@@ -1,0 +1,17 @@
+.section{
+    width: 90%;
+    max-width: 1200px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3vw;
+    align-content: left;
+}
+.tab__list--infotech {
+    background-color: rgb(42, 42, 140);
+    width: 9vw;
+    height: 2.7vw;
+    border-radius: 0.3vw;
+}
+.tab__link--InfoTech {
+    color: aliceblue;
+}

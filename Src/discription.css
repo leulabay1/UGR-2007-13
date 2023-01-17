@@ -1,0 +1,218 @@
+
+.container {
+    width: 97.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 2vw;
+    margin-top: 10vw;
+    padding: 2vw;
+}
+.subContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productImg{
+    width: 40vw;
+    height: 30vw;
+    object-fit: cover;
+    object-position: center;
+}
+.nevigateIcon {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+.navIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.table {
+    table-layout: fixed;
+    width: 40vw;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 5px gray;
+    margin: 7vw;
+}
+  
+thead th:nth-child(1) {
+    width: 20vw;
+}
+  
+thead th:nth-child(2) {
+    width: 20vw;
+}
+th, td {
+    padding: 15px;
+}
+tbody tr:nth-child(odd) {
+    background-color:white;
+}
+  
+tbody tr:nth-child(even) {
+    background-color: #eeeef4;
+}
+table {
+    background-color: #9db2d3;
+}
+
+.relatedLaptops{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listOflaptops{
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.laptops {
+    width: 180px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(233, 236, 239);
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: rgb(4, 4, 27);
+}
+.laptopsimage {
+    width: 170px;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
+    justify-self: center;
+}
+.laptopDiscription {
+    font-size: 15px;
+
+}
+.seeMoreLink {
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: inset rgb(218, 218, 218);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.nevigateIcon{
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    Header {
+        height: 17vw;
+
+    }
+    #logoHeader {
+        width: 14vw;
+        height: 14vw;
+        object-fit:contain;
+        border-radius: 7vw;
+        position: absolute;
+        top: 1vw;
+        left: 1vw;
+    }
+    #search {
+        display: flex;
+        column-gap: 3vw;
+        position: absolute;
+        align-items: center;
+        top: 5vw;
+        left: 26vw;
+    }
+    #searchBar {
+        width: 32vw;
+        height: 6vw;
+        border: 1px rgb(18, 16, 16);
+        border-radius: 3vw;
+    }
+    #searchIcon {
+        width: 5vw;
+        height: 5vw;
+        align-self: center;
+        object-fit: contain;
+    }
+    #menu {
+        display: inline;
+        width: 12vw;
+        height: 12vw;
+        margin-left:70vw;
+        margin-top: 10px;
+        border-radius: 10v;
+    }
+    #listOfTabs {
+       display: none;
+    }
+    .container {
+        width: 97.5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        column-gap: 2vw;
+        margin-top: 15vw;
+    
+    }
+    .subContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productImg{
+        width: 60vw;
+        height: 45vw;
+        object-fit: cover;
+        object-position: center;
+    }
+    .nevigateIcon {
+        margin-top: 20px;
+        display: flex;
+        column-gap: 10px;
+    }
+    .navIcon {
+        width: 40px;
+        height: 40px;
+    }
+    table {
+        table-layout: fixed;
+        width: 80vw;
+        border-collapse: collapse;
+        box-shadow: 3px 3px 5px gray;
+        font-size: 5vw;
+    }
+    thead th:nth-child(1) {
+        width: 40vw;
+    }
+    thead th:nth-child(2) {
+        width: 40vw;
+    }
+    th, td {
+        padding: 20px;
+    }
+    tbody tr:nth-child(odd) {
+        background-color:white;
+    }
+      
+    tbody tr:nth-child(even) {
+        background-color: #eeeef4;
+    }
+    table {
+        background-color: #9db2d3;
+    }
+    
+}

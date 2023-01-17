@@ -1,0 +1,197 @@
+
+.tab__list--contactus {
+    background-color: rgb(42, 42, 140);
+    width: 9vw;
+    height: 2.7vw;
+    border-radius: 0.3vw;
+}
+.tab__link--ContactUs {
+    color: aliceblue;
+}
+.contactcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 20px;
+}
+.Contact{
+    margin-top: 10vh;
+    width: 35vw;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+}
+.contact__telegram, .contact__phone{
+    display: flex;
+    justify-content: center;
+    column-gap: 2vw;
+}
+.contact__image{
+    width: 35px;
+    height: 35px;
+}
+.contact__number{
+    position: relative;
+    top: -11px;
+}
+.container2{
+    margin-top: 10px;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getInTouch__adress{
+    list-style-type: none;
+    width: 40vw;
+}
+.address__list{
+    display: flex;
+    column-gap: 2vw;
+    font-size: 15px;
+    align-items: center;
+}
+.address__image {
+    width: 40px;
+    height: 40px;
+}
+.socialMedia0__image {
+    width: 40px;
+    height: 40px;
+}
+.socialMedia0 {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.contactform {
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 10px;
+    padding: 10px;
+    margin: 10vh;
+}
+.contactform__name--input {
+    width: 70%;
+    height: 8vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.contactform__name--textarea{
+    width: 70%;
+    height: 15vh;
+    background-color: whitesmoke;
+    border: 1px solid black;
+
+}
+.contactform__submit{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(18, 41, 145);
+    box-shadow: 2px 3px 3px grey;
+    color: aliceblue;
+}
+.iframe {
+    width: 40vw;
+    height: 100vh;
+    margin-top: 5vh;
+}
+@media screen and (max-width: 600px) {
+    .Contact{
+        margin-top: 10vh;
+        width: 80vw;
+        height: 40vw;
+        font-size: 5vw;
+        background-color: aliceblue;
+        text-align: center;
+        align-items: center;
+    }
+    .contact__phone, .contact__telegram{
+        display: flex;
+        justify-content: center;
+        column-gap: 2vw;
+    }
+    .contact__image{
+        width: 20px;
+        height: 20px;
+    }
+    .getInTouch__adress{
+        list-style-type: none;
+        width: 70vw;
+
+    }
+    .address__list{
+        display: flex;
+        column-gap: 2vw;
+        font-size: 5vw;
+        align-items: center;
+    }
+    .address__image {
+        width: 10vw;
+        height: 10vw;
+    }
+    .socialMedia0__image {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .socialMedia0 {
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+    }
+    .contactform {
+        width: 80vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        row-gap: 10px;
+        margin: 10vh;
+        font-size: 3vw;
+    }
+    .contactform__name--input{
+        width: 70%;
+        height: 10vw;
+        background-color: whitesmoke;
+        border-radius: 5vw;
+    }
+    .contactform__name--textarea{
+        width: 70%;
+        height: 15vh;
+        background-color: whitesmoke;
+        border-radius: 2vh;
+    
+    }
+    .contactform__submit{
+        width: 20vw;
+        height: 7vw;
+        background-color: aliceblue;
+        border-radius: 4vh;
+    }
+    
+    .iframe {
+        width: 90vw;
+        height: 80vh;
+        margin-top: 5vh;
+    }
+    
+}
+@media screen and (min-width:600px ) and (max-height:700px) and (orientation:landscape){
+    .contact0{
+        margin-top: 10vh;
+        width: 40vw;
+        height: 25vw;
+    }
+}
