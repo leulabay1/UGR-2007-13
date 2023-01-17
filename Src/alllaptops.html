@@ -6,251 +6,251 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethel Computers</title>
     <link rel="short icon" href="image/logo.png">
+    <link rel="stylesheet" href="alllaptops.css">
+    <link rel="stylesheet" href="headerandfooter.css">
 </head>
 <body>
-    <header aria-label="header">
-        <img src="image/logo.png" alt="company's logo" id="logoHeader">
-        <form action="" method="get">
-            <div id="search">
-                <input type="search" placeholder="search" id="searchBar">
-                <label for="searchBar"><img src="image/serachicon.png" alt="searchIcon" id="searchIcon"></label> 
-            </div>
+    <header aria-label="header" class="header">
+        <img src="image/logo.png" alt="company's logo" id="logoHeader" class="header__image">
+        <form action="" method="get" id="search" class="search">
+                <input type="search" placeholder="search" id="searchBar" class="search__bar">
+                <label for="searchBar" class="search__button__container"><img src="image/serachicon.png" alt="searchIcon" id="searchIcon" class="search__button"></label> 
         </form>
-
-        <nav id="navigationBar" aria-label="navigation">
-            <ul id="listOfTabs">
-                <li><a href="home.html" id="homeLink">Home</a></li>
-                <li><a href="newarival.html" id="newLink">New Arival</a></li>
-                <li><a href="alllaptops.html" id="allLink">All Laptops</a></li>
-                <li><a href="infotech.html" id="infolink">Info Tech</a></li>
-                <li><a href="aboutus.html" id="aboutLink">About Us</a></li>
-                <li><a href="contactus.html" id="contactLink">Contact Us</a></li>
+        <nav id="navigationBar" aria-label="navigation" class="nevigation">
+            <ul id="listOfTabs" class="tab">
+                <li class="tab__list--home"><a href="index.html" id="homeLink" class="tab__link tab__link--home">Home</a></li>
+                <li class="tab__list"><a href="newarival.html" id="newLink" class="tab__link tab__link--newArival">New Arival</a></li>
+                <li class="tab__list--alllaptops"><a href="alllaptops.html" id="allLink" class="tab__link tab__link--AllLaptops">All Laptops</a></li>
+                <li class="tab__list"><a href="infotech.html" id="infolink" class="tab__link tab__link--InfoTech">Info Tech</a></li>
+                <li class="tab__list"><a href="aboutus.html" id="aboutLink" class="tab__link tab__link--AboutUs">About Us</a></li>
+                <li class="tab__list"><a href="contactus.html" id="contactLink" class="tab__link tab__link--ContactUs">Contact Us</a></li>
             </ul>
         </nav>
-        <span id="menu"><img src="image/menubar.png" alt="menubar"></span>
+        <img src="image/menubar.png" alt="menubar" id="menu" class="menu">
     </header>
     
-    <section id="allLaptops">
+    <section class="allLaptops">
         <h1>All Laptops In Stock </h1>
         <div class="listofLaptops">
             <!-- list of core i7 laptops -->
-            <h2>Core I7</h2>
-            <div id="coreI7">
-                <div>
-                    <span> <img src="image/alienware.jpg" alt="alienware laptop5"></span>
-                    <div> 
+            <h2 class="headings">Core I7</h2>
+            <div id="coreI7" class="laptopslist">
+                <div class="laptops">
+                    <span> <img src="image/alienware.jpg" alt="alienware laptop5" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>HP | Alien Ware </P>
                         <p>core i7 11th | Used</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="9">See More</button>
+                        <a href="discription.html?id=8">
+                            <button class="laptops__button"> See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/Asus.jpg" alt="Asus1 laptop6"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/Asus.jpg" alt="Asus1 laptop6" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Asus | republic</P>
                         <p>Core I7 | Used</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="10">See More</button>
+                        <a href="discription.html?id=9">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/msi.jpg" alt="msi laptop7"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/msi.jpg" alt="msi laptop7" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>MSI | Leopard </P>
                         <p>core i7 | New</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="11">See More</button>
+                        <a href="discription.html?id=10">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/acernitro.jpg" alt="acernitro laptop8"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/acernitro.jpg" alt="acernitro laptop8" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Acer | Nitro 5 </P>
                         <p>core i7 | New</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="12">See More</button>
+                        <a href="discription.html?id=11">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div class="nevigateIcon">
-                    <img src="" alt="backIcon" >
-                    <img src="" alt="forwardIcon">
-                </div>
+            </div>
+            <div class="nevigateIcon">
+                <img src="image/previous (1).png" alt="backIcon" id="backicon" class="nevigateIcon__button nevigateicon__button--back">
+                <img src="image/next-button.png" alt="forwardIcon" id="forwardicon" class="nevigateIcon__button nevigateicon__button--forwrad">
             </div>
             <!-- list of core i5 laptops -->
-            <h2>Core I5</h2>
-            <div id="coreI5">
+            <h2 class="headings">Core I5</h2>
+            <div id="coreI5" class="laptopslist">
                 
-                <div>
-                    <span> <img src="image/lenevo1.jpg" alt="Lenovo laptop5"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/lenevo1.jpg" alt="Lenovo laptop5" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Lenevo | IdeaPad </P>
                         <p>core i5 10th | Used</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="9">See More</button>
+                        <a href="discription.html?id=12">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/Asus.jpg" alt="republic laptop6"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/Asus.jpg" alt="republic laptop6" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Asus | republic</P>
                         <p>core i5 | Used</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="10">See More</button>
+                        <a href="discription.html?id=13">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/omen2.jpg" alt="omen laptop7"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/omen2.jpg" alt="omen laptop7" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>HP | Omen </P>
                         <p>core i5 | New</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="11">See More</button>
+                        <a href="discription.html?id=14">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/hpenvy.webp" alt="hpenvy laptop8"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/hpenvy.webp" alt="hpenvy laptop8" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>HP | Envy </P>
                         <p>core i5 | New</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="12">See More</button>
+                        <a href="discription.html?id=15">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div class="nevigateIcon">
-                    <img src="image/previous (1).png" alt="backIcon" >
-                    <img src="image/next-button.png" alt="forwardIcon" >
-                </div>
+            </div>
+            <div class="nevigateIcon">
+                <img src="image/previous (1).png" alt="backIcon" id="backicon" class="nevigateIcon__button nevigateicon__button--back">
+                <img src="image/next-button.png" alt="forwardIcon" id="forwardicon" class="nevigateIcon__button nevigateicon__button--forwrad">
             </div>
             <!-- list of core i3 laptops -->
-            <h2>Core I3</h2>
-            <div id="coreI3">
+            <h2 class="headings">Core I3</h2>
+            <div id="coreI3" class="laptopslist" >
                 
-                <div>
-                    <span> <img src="image/Asus.jpg" alt="asus laptop5"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/Asus.jpg" alt="asus laptop5" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Asus | elite </P>
                         <p>core i3 10th | Used</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="9">See More</button>
+                        <a href="discription.html?id=16">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/hp1.jpg" alt="hp1 laptop6"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/hp1.jpg" alt="hp1 laptop6" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>HP | NoteBook</P>
                         <p>I3 | Used</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="10">See More</button>
+                        <a href="discription.html?id=17">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/ideaPad.jpg" alt="lenovoiideapad laptop7"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/ideaPad.jpg" alt="lenovoiideapad laptop7" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Lenovo | ideaPad </P>
                         <p>core i3 | New</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="11">See More</button>
+                        <a href="discription.html?id=18">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div>
-                    <span> <img src="image/asusvivobook.jpg" alt="asusvivobook laptop8"></span>
-                    <div> 
+                <div class="laptops">
+                    <span> <img src="image/asusvivobook.jpg" alt="asusvivobook laptop8" class="laptops__image"></span>
+                    <div class="laptops__discription"> 
                         <P>Asus | Vivobook </P>
                         <p>core i3 | New</p>
                     </div>
                     <div>
-                        <a href="discription.html">
-                            <button id="12">See More</button>
+                        <a href="discription.html?id=19">
+                            <button class="laptops__button" >See More</button>
                         </a>
                     </div>
                 </div>
-                <div class="nevigateIcon">
-                    <img src="" alt="backIcon">
-                    <img src="" alt="forwardIcon">
-                </div>
-                
+            </div>
+            <div class="nevigateIcon">
+                <img src="image/previous (1).png" alt="backIcon" id="backicon" class="nevigateIcon__button nevigateicon__button--back">
+                <img src="image/next-button.png" alt="forwardIcon"id="forwardicon" class="nevigateIcon__button nevigateicon__button--forwrad">
             </div>
         </div>
     </section>
 
-    <footer aria-label="footer">
-        <div id="left">
-            <div id="aboutUsFotter">
-                <p>About</p>
-                <p>We are Ethel Computer. If you are looking for Brand new, Gaming And used Laptops, You are in the right place! With one year guarantee “Quality product with Affordable price”
-                    location: Bole Ednamole Alemnesh Plaza 1st floor no 17</p>
+    <footer aria-label="footer" class="footer">
+        <div id="containerfooter" class="container">
+            <div id="left" class="container__left">
+                <div id="aboutUsFotter" class="footers">
+                    <p>About</p>
+                    <p>We are Ethel Computer. <br> If you are looking for Brand new, Gaming And used Laptops, You are in the right place! <br> With one year guarantee “Quality product with Affordable price”
+                        <br> location: Bole Ednamole Alemnesh Plaza 1st floor no 17</p>
+                </div>
+                <div id="contactUsFotter" class="footers">
+                    <p>Contact us</p>
+                    <address aria-label="address">
+                        <ul class="contactAddresses">
+                            <li class="contactAddresses__list"> <img src="image/adressicon.png" alt="addressIcon" class="contactAddresses__image"> <p>Addis Ababa, Bole, Alemnesh Plaza 1st floor</p></li>
+                            <li class="contactAddresses__list"> <img src="image/phonenumber.png" alt="phoneNumber"  class="contactAddresses__image"><p>+251914629670</p></li>
+                            <li class="contactAddresses__list"> <img src="image/email.png" alt="emailAdress" class="contactAddresses__image"> <p>leulabay1@gmail.com</p></li>
+                        </ul>
+                    </address>
+                </div>
             </div>
-            <div id="contactUsFotter">
-                <p>Contact us</p>
-                <address aria-label="address">
-                    <ul id="contactAddresses">
-                        <li> <img src="image/adressicon.png" alt="addressIcon"> <p>Addis Ababa, Bole, Alemnesh Plaza 1st floor</p></li>
-                        <li> <img src="image/phonenumber.png" alt="phoneNumber"><p>+251914629670</p></li>
-                        <li> <img src="image/email.png" alt="emailAdress"> <p>leulabay1@gmail.com</p></li>
-                    </ul>
-                </address>
+           
+            <div id="footterLogo">
+                <img src="image/logo.png" alt="company's logo" class="footer__Image">
             </div>
-        </div>
-       
-        <div id="footterLogo">
-            <img src="image/logo.png" alt="company's logo" id="fottorImage">
+    
+            <div class="container__right">
+                <div class="footers">
+                    <p>Tech info</p>
+                    <p>You dont know what kind of pc you want? Have a look at our blog</p>
+                    <a href="infotech.html">Tech Info</a>
+                </div>
+                <div class="footers">
+                    <p>Laptops</p>
+                    <p>have a look at the laptops in our stock</p>
+                </div>
+            </div>
         </div>
 
-        <div id="right">
-            <div id="techFotter">
-                <p>Tech info</p>
-                <p>You dont know what kind of pc you want? Have a look at our blog</p>
-                <a href="techinfo.html">Tech Info</a>
-            </div>
-            <div id="laptopsFooter">
-                <p>Laptops</p>
-                <p>have a look at the laptops in our stock</p>
-            </div>
+        <div class="socialmedia">
+            <a href="https://twitter.com/"><img src="image/tiwter.png" alt="tiwtter" class="socialmedia__image"></a>
+            <a href="https://www.instagram.com/leulabay10/"><img src="image/instagram.png" alt="instagram" class="socialmedia__image"></a>
+            <a href="t.m/leul_abay"><img src="image/telegram.png" alt="telegram" class="socialmedia__image"></a>
+            <a href="https://www.linkedin.com/in/leul-abay-a2a638231/"><img src="image/likedin.png" alt="linkedIn" class="socialmedia__image"></a>
+            <a href="https://www.facebook.com/leul.abey.9"><img src="image/facebook.png" alt="facebook" class="socialmedia__image"></a>
         </div>
-        
-        <div id="socialMedia">
-            <a href="https://twitter.com/"><img src="image/tiwter.png" alt="tiwtter"></a>
-            <a href="https://www.instagram.com/leulabay10/"><img src="image/instagram.png" alt="instagram"></a>
-            <a href="t.m/leul_abay"><img src="image/telegram.png" alt="telegram"></a>
-            <a href="https://www.linkedin.com/in/leul-abay-a2a638231/"><img src="image/likedin.png" alt="linkedIn"></a>
-            <a href="https://www.facebook.com/leul.abey.9"><img src="image/facebook.png" alt="facebook"></a>
-        </div>
-        <p>&copy;2010-2020 ethel computers</p>
+        <p class="copyright">&copy;2010-2020 ethel computers</p>
     </footer>
-    
+    <script src="home.js"></script>
 </body>
 </html>
