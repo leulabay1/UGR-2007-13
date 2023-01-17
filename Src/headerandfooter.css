@@ -300,12 +300,6 @@ body {
     .active {
         clip-path: circle(144% at 0% 0%);
     }
-    .tab__list--home {
-        background-color: rgb(42, 42, 140);
-        width: 30vw;
-        height: auto;
-        border-radius: none;
-    }
     .hero {
         font-size: 15px;
     }
