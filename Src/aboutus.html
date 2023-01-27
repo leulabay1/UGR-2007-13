@@ -6,128 +6,192 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ethel Computers</title>
     <link rel="short icon" href="image/logo.png">
+    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-    <header aria-label="header">
-        <img src="image/logo.png" alt="company's logo" id="logoHeader">
-        <form action="" method="get">
-            <div id="search">
-                <input type="search" placeholder="search" id="searchBar">
-                <label for="searchBar"><img src="image/serachicon.png" alt="searchIcon" id="searchIcon"></label> 
-            </div>
-        </form>
-
-        <nav id="navigationBar" aria-label="navigation">
-            <ul id="listOfTabs">
-                <li><a href="home.html" id="homeLink">Home</a></li>
-                <li><a href="newarival.html" id="newLink">New Arival</a></li>
-                <li><a href="alllaptops.html" id="allLink">All Laptops</a></li>
-                <li><a href="infotech.html" id="infolink">Info Tech</a></li>
-                <li><a href="aboutus.html" id="aboutLink">About Us</a></li>
-                <li><a href="contactus.html" id="contactLink">Contact Us</a></li>
+  <header aria-label="header" class="bg-primary-subtle">
+            
+    <div class=" d-flex align-items-center justify-content-start" style="max-width: 600px;" >
+          <img src="image/logo.png" alt="Bootstrap" class="rounded-pill" width="80px" height="80px">
+        <div class="container-fluid" style="max-width: 500px;">
+            <form class="d-flex input-group w-auto">
+              <input
+                type="search"
+                class="form-control rounded"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <span class="input-group-text border-0 btn btn-primary" id="search-addon">
+                <img src="image/search.png" alt="" width="40px" height="40px">
+              </span>
+            </form>
+        </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center mb-2 ">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav nav-pills nav-fill nav-tabs mx-auto gap-3">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="newarival.html">New Arival</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="alllaptops.html">All Laptops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="infotech.html">Info Tech</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contactus.html">Contact Us</a>
+              </li>
             </ul>
-        </nav>
-        <span id="menu"><img src="image/menubar.png" alt="menubar"></span>
-    </header>
+          </div>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+
+</header>
     <main>
-    <div id="aboutUs">
-        <h1>About Us</h1>
-        <p>we are Ethel Computers <br>
-            we are a midsized computer sales company specifically providing laptops for sale. we have laptops for sale that compromise your budgte ranging from a small sized budgeted pc to a high end gamming pc. <br> If you are looking for Brand new, Gaming And used Laptops, You are in the right place! With one year guarantee “Quality product with Affordable price” <br>
-            location: Bole Ednamole Alemnesh Plaza 1st floor no 17
-        </p>
-        <audio controls> <source src="Audio/audio.mp3" type="audio/mp3" /> <track label="English" kind="subtitles" srclang="en" src="video/subtitile.vtt" default /> </audio>
+    <div id="contactcontainer" class="d-flex p-2 justify-content-center flex-wrap gap-2">
+        <div class="card container shadow-sm bg-secondary-subtle" style="max-width: 540px;">
+            <div class="card-body">
+            <h1 class="card-title text-center">About Us</h1>
+            <p class="card-text">
+                we are Ethel Computers <br>
+                we are a midsized computer sales company specifically providing laptops for sale. we have laptops for sale that compromise your budgte ranging from a small sized budgeted pc to a high end gamming pc. <br> If you are looking for Brand new, Gaming And used Laptops, You are in the right place! With one year guarantee “Quality product with Affordable price” <br>
+                location: Bole Ednamole Alemnesh Plaza 1st floor no 17
+            </p>
+            <audio controls > <source src="Audio/audio.mp3" type="audio/mp3" /> <track label="English" kind="subtitles" srclang="en" src="video/subtitile.vtt" default /> </audio>
+            </div>
+        </div>
+
+        <div id="services" class="card container shadow-sm bg-secondary-subtle" style="max-width: 600px;">
+            <div class="card-body">
+                <h1 class="text-center">The services we offer</h1>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex gap-2">> <img src="image/laptop.png" alt="addressIcon" class="contactAddresses__image" width="55px" height="55px"> <p>We provide loptops for sale</p></li>
+                    <li class="list-group-item d-flex gap-2">> <img src="image/repair-tools.png" alt="phoneNumber"  class="contactAddresses__image" width="55px" height="55px"><p>We will give a technical support for any hardware related problem</p></li>
+                    <li class="list-group-item d-flex gap-2">> <img src="image/app-development.png" alt="emailAdresss" class="contactAddresses__image" width="55px" height="55px"> <p>We will give a software repair for any windows related problems</p></li>
+                    <li class="list-group-item d-flex gap-2">> <img src="image/conversation.png" alt="conversations" class="contactAddresses__image" width="55px" height="55px"> <p>We will give consultancy for any laptop related issue</p></li>
+                </ul>
+            </div>
+            
+        </div>
     </div>
-    <div id="services">
-        <h1>The services we offer</h1>
-        <ul>
-            <li> <img src="image/laptop.png" alt="addressIcon"> <p>We provide loptops for sale</p></li>
-            <li> <img src="image/repair-tools.png" alt="phoneNumber"><p>We will give a technical support for any hardware related problem</p></li>
-            <li> <img src="image/app-development.png" alt="emailAdress"> <p>We will give a software repair for any windows related problems</p></li>
-            <li> <img src="image/conversation.png" alt="conversation"> <p>We will give consultancy for any laptop related issue</p></li>
-        </ul>
-    </div>
-    <div id="teamContainer">
+    <div class="text-center">
         <h1>Meet Our Team</h1>
-        <div class="person">
-            <img src="image/manager.jfif" alt="manager">
-            <div>
-                <p>Leul Abay</p>
-                <p>Maneger</p>
+        <div id="teamContainer" class="d-flex p-2 justify-content-center flex-wrap gap-2">
+            <div class="card mb-3 shadow-sm bg-secondary-subtle" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/manager.jfif" alt="manager" class="img-fluid rounded-start">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Leul Abay</h5>
+                      <h5 class="card-title">Maneger</h5>
+                    </div>
+                  </div>
+                </div>
             </div>
+
+            <div class="card mb-3 shadow-sm bg-secondary-subtle" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/salesman.jpg" alt="sales man" class="img-fluid rounded-start">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Abebe Zeleke</h5>
+                      <h5 class="card-title">Co-Maneger</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 shadow-sm bg-secondary-subtle" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/saleslady.jpg" alt="sales lady" class="img-fluid rounded-start">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Yetneyet Amare</h5>
+                      <h5 class="card-title">selles person</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 shadow-sm bg-secondary-subtle" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="image/salesguy.jpg" alt="sales guy" class="img-fluid rounded-start">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Ayalew Zegeye</h5>
+                      <h5 class="card-title">selles person</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
-        <div class="person">
-            <img src="image/salesman.jpg" alt="sales man">
-            <div>
-                <p>Abebe Zeleke</p>
-                <p>Co-Maneger</p>
-            </div>
-            
-        </div>
-        <div class="person">
-            <img src="image/saleslady.jpg" alt="sales lady">
-            <div> 
-                <p>Yetneyet Amare</p>
-                <p>selles person</p>
-            </div>
-           
-        </div>
-        <div class="person">
-            <img src="image/salesguy.jpg" alt="sales guy">
-            <div>
-                <p>Ayalew Zegeye</p>
-                <p>selles person</p>
-            </div>
-            
-        </div>
-        
     </div>
 </main>
-    
-<footer aria-label="footer">
-    <div id="left">
-        <div id="aboutUsFotter">
-            <p>About</p>
-            <p>We are Ethel Computer. If you are looking for Brand new, Gaming And used Laptops, You are in the right place! With one year guarantee “Quality product with Affordable price”
-                location: Bole Ednamole Alemnesh Plaza 1st floor no 17</p>
-        </div>
-        <div id="contactUsFotter">
-            <p>Contact us</p>
-            <address aria-label="address">
-                <ul id="contactAddresses">
-                    <li> <img src="image/adressicon.png" alt="addressIcon"> <p>Addis Ababa, Bole, Alemnesh Plaza 1st floor</p></li>
-                    <li> <img src="image/phonenumber.png" alt="phoneNumber"><p>+251914629670</p></li>
-                    <li> <img src="image/email.png" alt="emailAdress"> <p>leulabay1@gmail.com</p></li>
-                </ul>
-            </address>
-        </div>
-    </div>
-   
-    <div id="footterLogo">
-        <img src="image/logo.png" alt="company's logo" id="fottorImage">
-    </div>
+<footer aria-label="footer" class="d-flex flex-column align-items-center bg-primary-subtle mt-4 pt-4">
+  <div id="containerfooter" class="d-flex flex-wrap justify-content-center">
+      <div id="left" class="d-flex flex-wrap justify-content-center">
+          <div id="aboutUsFotter" style="min-width: 230px; width: 260px;">
+              <p class="text-center">About</p>
+              <p>We are Ethel Computer. <br> If you are looking for Brand new, Gaming And used Laptops, You are in the right place! <br> With one year guarantee “Quality product with Affordable price”
+                  <br> location: Bole Ednamole Alemnesh Plaza 1st floor no 17</p>
+          </div>
+          <div id="contactUsFotter" style="min-width: 230px; width: 260px;">
+              <p class="text-center">Contact us</p>
+              <address aria-label="address">
+                  <ul class="list-group list-group-flush bg-primary-subtle">
+                      <li class="list-group-item d-flex gap-2 bg-primary-subtle">> <img src="image/adressicon.png" alt="addressIcon" class="contactAddresses__image" width="35px" height="35px"> <p>Addis Ababa, Bole, Alemnesh Plaza 1st floor</p></li>
+                      <li class="list-group-item d-flex gap-2 bg-primary-subtle" >> <img src="image/phonenumber.png" alt="phoneNumber"  class="contactAddresses__image" width="35px" height="35px"><p>+251914629670</p></li>
+                      <li class="list-group-item d-flex gap-2 bg-primary-subtle">> <img src="image/email.png" alt="emailAdress" class="contactAddresses__image" width="35px" height="35px"> <p>leulabay1@gmail.com</p></li>
+                  </ul>
+              </address>
+          </div>
+      </div>
+     
+      <div id="footterLogo">
+          <img src="image/logo.png" alt="company's logo" class="rounded-pill" width="150px" height="150px">
+      </div>
 
-    <div id="right">
-        <div id="techFotter">
-            <p>Tech info</p>
-            <p>You dont know what kind of pc you want? Have a look at our blog</p>
-            <a href="techinfo.html">Tech Info</a>
-        </div>
-        <div id="laptopsFooter">
-            <p>Laptops</p>
-            <p>have a look at the laptops in our stock</p>
-        </div>
-    </div>
-    
-    <div id="socialMedia">
-        <a href="https://twitter.com/"><img src="image/tiwter.png" alt="tiwtter"></a>
-            <a href="https://www.instagram.com/leulabay10/"><img src="image/instagram.png" alt="instagram"></a>
-            <a href="t.m/leul_abay"><img src="image/telegram.png" alt="telegram"></a>
-            <a href="https://www.linkedin.com/in/leul-abay-a2a638231/"><img src="image/likedin.png" alt="linkedIn"></a>
-            <a href="https://www.facebook.com/leul.abey.9"><img src="image/facebook.png" alt="facebook"></a>
-    </div>
-    <p>&copy;2010-2020 ethel computers</p>
+      <div class="d-flex flex-wrap justify-content-center">
+          <div style="min-width: 230px;width: 260px;" class="p-2">
+              <p class="text-center">Tech info</p>
+              <p>You dont know what kind of pc you want? Have a look at our blog</p>
+              <a href="infotech.html">Tech Info</a>
+          </div>
+          <div style="min-width: 230px; width: 260px;">
+              <p class="text-center">Laptops</p>
+              <p>have a look at the laptops in our stock</p>
+          </div>
+      </div>
+  </div>
+  <div class="socialmedia" class="d-flex gap-3">
+      <a href="https://twitter.com/"><img src="image/tiwter.png" alt="tiwtter" width="40px" height="40px"></a>
+      <a href="https://www.instagram.com/leulabay10/"><img src="image/instagram.png" alt="instagram"  width="40px" height="40px"></a>
+      <a href="t.m/leul_abay"><img src="image/telegram.png" alt="telegram"  width="40px" height="40px"></a>
+      <a href="https://www.linkedin.com/in/leul-abay-a2a638231/"><img src="image/likedin.png" alt="linkedIn"  width="40px" height="40px"></a>
+      <a href="https://www.facebook.com/leul.abey.9"><img src="image/facebook.png" alt="facebook"  width="40px" height="40px"></a>
+  </div>
+  <p class="copyright">&copy;2010-2020 ethel computers</p>
 </footer>
-    
+<script src="bootstrap.js" ></script>
 </body>
 </html>
